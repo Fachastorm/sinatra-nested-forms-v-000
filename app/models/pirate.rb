@@ -6,7 +6,7 @@ PIRATES = []
  def initialize(params)
    @name = params[:name]
    @weight = params[:weight]
-   @heigh = params[:height]
+   @height = params[:height]
    PIRATES << self
  end
 
