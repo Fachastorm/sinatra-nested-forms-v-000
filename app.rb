@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     # code other routes/actions here
-    
+
           erb :root
         end
 
@@ -22,7 +22,7 @@ module FormsLab
 
           erb :'pirates/show'
         end
-        
+
       end
     end
   end
